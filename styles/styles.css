@@ -169,6 +169,10 @@ img:hover {
     position: relative;
 } */
 
+.project-container {
+    display: flex;
+}
+
 .flexbox {
     display: flex;
     height: 200px;
