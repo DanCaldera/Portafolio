@@ -49,6 +49,10 @@ h1 {
     letter-spacing: -1px;
 }
 
+h2 {
+    margin: 20px;
+}
+
 h1 strong {
     color: #3282b8;
 }
