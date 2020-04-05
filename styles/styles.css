@@ -62,6 +62,7 @@ h1 strong {
     display: flex;
     justify-content: space-between;
     height: 70px;
+    max-width: 1400px;
     flex-wrap: wrap;
 }
 
@@ -120,16 +121,16 @@ ul {
 
 .hero-text {
     text-align: center;
-    width: 50%;
+    max-width: 50%;
 }
 
 .hero-img-position {
-    padding-left: 20%;
+    padding-left: 200px;
 }
 
 .hero-img {
     border-radius: 4px;
-    width: 200px;
+    max-width: 200px;
 }
 
 img:hover {
@@ -166,23 +167,6 @@ img:hover {
     width: 500px;
     flex-wrap: wrap;
 }
-
-/* .project-title {
-}
-
-.project-course {
-}
-
-.project-date {
-}
-
-.project-text {
-} */
-
-/* .project.img {
-    position: relative;
-} */
-
 
 .flexbox {
     display: flex;
@@ -269,19 +253,29 @@ img:hover {
     }
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1024px) {
     body {
-        border: 10px solid green;
-    }
-    .hero-img-position {
-        margin-top: 80px;
-        padding-left: 20%;
+        border: 10px solid red;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body {
-        border: 10px solid red;
+        border: 10px solid green;
+    }
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header ol {
+        flex-direction: column;
+    }
+    .header ol li {
+        height: 50px;
+    }
+    .header a {
+        display: block;
+        text-align: center;
     }
 }
 
