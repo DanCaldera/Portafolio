@@ -56,13 +56,14 @@ h2 {
 h1 strong {
     color: #3282b8;
 }
+
 .header {
     background-color: #1b262c;
     color: #bbe1fa;
     display: flex;
     justify-content: space-between;
     height: 70px;
-    max-width: 1400px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
